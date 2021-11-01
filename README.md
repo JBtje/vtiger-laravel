@@ -398,7 +398,7 @@ The easiest way to update a record in the CRM is to retrieve the record first.
 
 ```php
 $vtiger = new Vtiger();
-$obj = Vtiger->retrieve( '4x1' );
+$obj = $vtiger->retrieve( '4x1' );
 ```
 
 Then update the object:
