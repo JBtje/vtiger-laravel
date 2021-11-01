@@ -1,0 +1,29 @@
+{
+    "name": "jbtje/vtiger-laravel",
+    "description": "A vtiger api wrapper",
+    "license": "MIT",
+    "version": "v0.1.0",
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "JBtje",
+            "email": "jbtjee@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JBtje\\VtigerLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JBtje\\VtigerLaravel\\VtigerServiceProvider"
+            ]
+        }
+    }
+}
