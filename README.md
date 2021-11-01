@@ -25,7 +25,7 @@ See [Third Party App Integration (REST APIs)](http://community.vtiger.com/help/v
    terminal:
 
     ```
-    composer require "jbtje/vtiger-laravel ^1.4"
+    composer require "jbtje/vtiger-laravel"
     ```
 
 2. Add ENV variables:
